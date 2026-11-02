@@ -1,0 +1,218 @@
+{
+  "Haikou": {
+    "nodes": 101224,
+    "directed_edges": 218288,
+    "poi_total": 168,
+    "poi_categories": {
+      "education": 119,
+      "other": 20,
+      "medical": 17,
+      "transit": 12
+    },
+    "grids": 3166,
+    "area_km2": 168.45733604731703,
+    "categories": {
+      "medical": {
+        "count_in_grids": 17,
+        "reachable": 3017,
+        "unavailable": 149,
+        "mean_min": 206.75963716282268,
+        "median_min": 148.68459701509252,
+        "coverage": {
+          "5": {
+            "samples": 12,
+            "percent": 0.3790271636133923
+          },
+          "10": {
+            "samples": 41,
+            "percent": 1.2950094756790902
+          },
+          "15": {
+            "samples": 89,
+            "percent": 2.8111181301326593
+          }
+        }
+      },
+      "education": {
+        "count_in_grids": 119,
+        "reachable": 3022,
+        "unavailable": 144,
+        "mean_min": 112.20571510637005,
+        "median_min": 62.084930729308425,
+        "coverage": {
+          "5": {
+            "samples": 96,
+            "percent": 3.0322173089071383
+          },
+          "10": {
+            "samples": 223,
+            "percent": 7.043588123815541
+          },
+          "15": {
+            "samples": 428,
+            "percent": 13.51863550221099
+          }
+        }
+      },
+      "transit": {
+        "count_in_grids": 12,
+        "reachable": 3017,
+        "unavailable": 149,
+        "mean_min": 251.72872742795064,
+        "median_min": 185.38549722336967,
+        "coverage": {
+          "5": {
+            "samples": 8,
+            "percent": 0.2526847757422615
+          },
+          "10": {
+            "samples": 27,
+            "percent": 0.8528111181301326
+          },
+          "15": {
+            "samples": 59,
+            "percent": 1.8635502210991788
+          }
+        }
+      },
+      "other": {
+        "count_in_grids": 20,
+        "reachable": 3017,
+        "unavailable": 149,
+        "mean_min": 210.63125939907124,
+        "median_min": 139.43114497603594,
+        "coverage": {
+          "5": {
+            "samples": 16,
+            "percent": 0.505369551484523
+          },
+          "10": {
+            "samples": 30,
+            "percent": 0.9475679090334808
+          },
+          "15": {
+            "samples": 63,
+            "percent": 1.9898926089703097
+          }
+        }
+      }
+    },
+    "clustering": {
+      "k": 3,
+      "silhouette": 0.524258227270252,
+      "sizes": {
+        "1": 2353,
+        "2": 796,
+        "0": 17
+      }
+    }
+  },
+  "Sanya": {
+    "nodes": 82202,
+    "directed_edges": 173164,
+    "poi_total": 122,
+    "poi_categories": {
+      "education": 48,
+      "medical": 39,
+      "transit": 30,
+      "other": 5
+    },
+    "grids": 1618,
+    "area_km2": 73.32984036287378,
+    "categories": {
+      "medical": {
+        "count_in_grids": 39,
+        "reachable": 1499,
+        "unavailable": 119,
+        "mean_min": 149.2943311715091,
+        "median_min": 90.1489535724809,
+        "coverage": {
+          "5": {
+            "samples": 28,
+            "percent": 1.73053152039555
+          },
+          "10": {
+            "samples": 62,
+            "percent": 3.8318912237330034
+          },
+          "15": {
+            "samples": 114,
+            "percent": 7.045735475896168
+          }
+        }
+      },
+      "education": {
+        "count_in_grids": 48,
+        "reachable": 1506,
+        "unavailable": 112,
+        "mean_min": 66.41288067408286,
+        "median_min": 46.75004840930976,
+        "coverage": {
+          "5": {
+            "samples": 37,
+            "percent": 2.2867737948084055
+          },
+          "10": {
+            "samples": 102,
+            "percent": 6.30407911001236
+          },
+          "15": {
+            "samples": 191,
+            "percent": 11.80469715698393
+          }
+        }
+      },
+      "transit": {
+        "count_in_grids": 30,
+        "reachable": 1500,
+        "unavailable": 118,
+        "mean_min": 85.44743390878143,
+        "median_min": 64.75266674355854,
+        "coverage": {
+          "5": {
+            "samples": 17,
+            "percent": 1.0506798516687268
+          },
+          "10": {
+            "samples": 64,
+            "percent": 3.955500618046971
+          },
+          "15": {
+            "samples": 112,
+            "percent": 6.9221260815822
+          }
+        }
+      },
+      "other": {
+        "count_in_grids": 5,
+        "reachable": 1499,
+        "unavailable": 119,
+        "mean_min": 117.03806515834076,
+        "median_min": 102.45343501688107,
+        "coverage": {
+          "5": {
+            "samples": 3,
+            "percent": 0.1854140914709518
+          },
+          "10": {
+            "samples": 8,
+            "percent": 0.4944375772558714
+          },
+          "15": {
+            "samples": 21,
+            "percent": 1.2978986402966626
+          }
+        }
+      }
+    },
+    "clustering": {
+      "k": 3,
+      "silhouette": 0.4987753541153607,
+      "sizes": {
+        "1": 1385,
+        "2": 157,
+        "0": 76
+      }
+    }
+  }
+}

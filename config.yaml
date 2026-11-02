@@ -1,0 +1,6 @@
+cities:
+  Haikou: [20.044, 110.199]
+  Sanya: [18.253, 109.512]
+crs: EPSG:32649
+radius_m: 1500
+max_snap_m: 300

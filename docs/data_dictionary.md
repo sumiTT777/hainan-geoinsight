@@ -1,0 +1,12 @@
+# Data dictionary
+- grid_id: sample cell identifier, valid only for current extent and resolution.
+- geometry: clipped cell polygon, EPSG:32649 in GeoParquet, EPSG:4326 in GeoJSON.
+- area_km2: cell area in square kilometers.
+- medical/education/transit/other_count: facilities assigned within cell.
+- *_m: nearest facility network distance plus endpoint connectors, meters; null means unavailable.
+- *_min: *_m divided by walking meters per minute.
+- *_status: reachable, outside_snap_limit, or no_connected_facility.
+- road_km_per_km2: undirected clipped road length divided by cell area.
+- facility_density: facility count per square kilometer.
+- cluster: nominal feature-similarity class; has no ordinal socioeconomic meaning.
+- PC1/PC2: standardized-feature PCA coordinates.
